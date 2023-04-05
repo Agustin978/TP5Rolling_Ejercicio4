@@ -11,3 +11,38 @@
     background: url(../img/fondo.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
     background: url(../img/fondo.png), linear-gradient(to left, #7b4397, #dc2430)
 }
+
+.contenedor-fecha
+{
+    width: 70%;
+}
+
+.contenedor-hora
+{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.contenedor-hora p
+{
+    width: 80%;
+    padding: 0;
+    align-items: baseline;
+}
+
+.contenedorSegundos
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 0;
+    align-items: top;
+}
+
+.contenedorSegundos p
+{
+    padding: 0;
+    margin: 0;
+}
